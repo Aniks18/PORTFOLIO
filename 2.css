@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: url('bgimg.gif') no-repeat center center fixed;
     background-size: cover;
-    color: #ffc1f5; /* Set text color to white for better contrast */
+    color: #ffc1f5; /
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,12 +17,12 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.9); /* Slightly darker for better visibility */
+    background-color: rgba(0, 0, 0, 0.9); 
     width: 200px;
     height: 100%;
     transform: translateX(-200px);
     transition: transform 0.3s ease;
-    z-index: 1000; /* Ensure it overlays other content */
+    z-index: 1000; 
 }
 
 
@@ -34,8 +34,8 @@ body {
     position: absolute;
     top: 10px;
     right: -30px;
-    background-color: #ffffffae; /* Make toggle button white for better visibility */
-    color: #000000; /* Text color for the toggle button */
+    background-color: #ffffffae; 
+    color: #000000; 
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -55,10 +55,10 @@ body {
 }
 
 .dashboard nav ul li a:hover {
-    color: #bf40ea; /* Change color on hover */
-    background-color: rgba(255, 255, 255, 0.1); /* Optional background highlight */
-    padding: 10px; /* Optional padding */
-    border-radius: 10px; /* Optional rounded corners */
+    color: #bf40ea;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px; 
+    border-radius: 10px; 
 }
 
 main {
@@ -77,8 +77,8 @@ main {
 .contact-card {
     position: relative;
     margin: 20px;
-    width: 400px; /* Set the size as needed */
-    height: 400px; /* Set the size as needed */
+    width: 400px; 
+    height: 400px;
     overflow: hidden;
     border-radius: 50px;
     transition: transform 0.3s ease;
@@ -92,16 +92,16 @@ main {
 
 .contact-card .overlay {
     position: absolute;
-    bottom: 0em; /* Align overlay to the bottom */
+    bottom: 0em; 
     left: 50%;
-    transform: translateX(-50%); /* Center horizontally */
+    transform: translateX(-50%); 
     color: rgb(0, 0, 0);
     font-size: 1.2em;
-    opacity: 0.8; /* Adjust opacity */
+    opacity: 0.8; 
     text-align: center;
-    text-shadow: 1px 5px 4px #000000; /* Add text shadow for better visibility */
-    padding: 10px; /* Optional padding for better spacing */
-    width: 100%; /* Optional to ensure full width */
+    text-shadow: 1px 5px 4px #000000;
+    padding: 10px; 
+    width: 100%; 
 }
 
 
